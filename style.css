@@ -1,0 +1,94 @@
+:root {
+    font-size: 16px;
+    background: #0f0e17;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* width: 80vw; */
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 1rem auto 1.9rem;
+    font-style: italic;
+    color: #fffffe;
+}
+
+main {
+    height: 60vh;
+    width: 50%;
+    overflow-y: auto;
+}
+
+p {
+    display: inline;
+    margin-right: 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+.button {
+    background-color: #3d66fc;
+    font-size: 1.3rem;
+    padding: .5rem 1.8rem;
+    border-radius: 5px;
+    color: #fff;
+    margin: .5rem auto 2rem;
+    border: 2px solid #eee;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.fragment {
+    font-size: 1.5rem;
+    margin-bottom: .2rem;
+    line-height: 2.5rem;
+    padding: .2rem .4rem;
+    color: #ffffff;
+    width: 3rem;
+}
+
+#first {
+    background-color: #ff8906;
+}
+
+#second {
+    background-color: #7f5af0;
+
+}
+
+#third {
+    background-color: #e53170;
+}
+
+#fourth {
+    background-color: #00ffffad;
+}
+
+.note {
+    position: relative;
+    left: 2.1rem;
+    font-size: 1.2rem;
+    width: auto;
+    color: #fffffe;
+}
+
+/** Link decoration from HackerNoon**/
+a {
+    text-decoration: none;
+    color: #fffffe;
+    font-size: 1.2rem;
+    background-image: linear-gradient(transparent 0%, transparent calc(50% - 4px), rgba(100, 255, 242, 0.45) calc(50% - 9px), rgba(0, 255, 0, 0.35) 100%);
+    transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
+    background-size: 100% 200%;
+}
+
+a:hover {
+    color: black;
+    background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgba(100, 255, 242, 1) calc(50% - 9px), rgba(100, 255, 242, 1) 100%);
+    background-position: 0 100%;
+}
